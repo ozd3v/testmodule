@@ -34,9 +34,7 @@
     "buildold": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
-    "test": "jest --config jestconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint"
+    "test": "jest --config jestconfig.json"
   },
   "dependencies": {
     "react": "^18.2.0",
