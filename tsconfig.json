@@ -1,36 +1,36 @@
 {
-  "compilerOptions": {
-    "module": "esnext",
-    "lib": [
-      "dom",
-      "esnext"
+    "compilerOptions": {
+        "module": "esnext",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "importHelpers": true,
+        "declaration": true,
+        "sourceMap": false,
+        "rootDir": "./src",
+        "outDir": "./dist/esm",
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src"
     ],
-    "importHelpers": true,
-    "declaration": true,
-    "sourceMap": false,
-    "rootDir": "./src",
-    "outDir": "./dist/esm",
-    "strict": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "moduleResolution": "node",
-    "jsx": "react",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-  },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "dist",
-    "node_modules"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+    "exclude": [
+        "dist",
+        "node_modules"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
 }
